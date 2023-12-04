@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.perfil-container{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-left: 5rem; 
+    margin-right: 5rem; 
+}
+
+
+
+/* LADO 1 */
+
+.perfil-img{
+    margin-left: 100px;
+    width: 500px;
+    height: 300px;
+}
+
+.stars{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 25rem;
+}
+
+
+/* LADO 2 */
+
+.container-box{
+    display: flex;
+}
+
+.container-box h2{
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-box h4{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btns{
+    display: flex;
+    margin-left: 30rem;
+}
+
+.btn-edit{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #D3756B;
+    font-size: x-large;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.btn-delete{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #D3756B;
+    font-size: x-large;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+
+.start{
+    
+    width:26rem;
+}
+.lado2{
+    position: relative;
+    margin-left: 100px;
+}
+
+.idosos{
+    width: 9rem;
+    height: 2.5rem;
+    background-color: #C07676;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    border-radius: 50px;
+
+    margin-top: 50px;
+}
+
+/* MEIO */
+
+.meio{
+    display: flex;
+    margin-top: 4rem;
+}
+
+.p-desc{
+    font-size: 22px;
+    width: 30rem;
+    padding-left: 2rem;
+}
+
+/* FINAL */
+
+.final{
+    background-color: #fff;
+    position: relative;
+    margin-top: 50px;
+    
+}
+
+.final h2{
+    font-size: 36px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.final p{
+    font-size: 22px;
+    margin-top: 20px;
+    width: 66rem;
+}
+
+.btnf{
+    width: 15rem;
+    height: 4rem;
+    background-color: #C07676;
+    font-size: x-large;
+    font-weight: 700;
+    color: #000;
+    border-radius: 50px;
+
+    margin-top: 70px;
+}

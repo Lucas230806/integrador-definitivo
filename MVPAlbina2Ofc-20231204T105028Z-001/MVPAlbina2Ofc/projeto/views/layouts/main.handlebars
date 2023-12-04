@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/dashboard.css">
+    <link rel="stylesheet" href="/css/perfil.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/registerall.css">
+    <link rel="stylesheet" href="/css/create.css">
+    <link rel="stylesheet" href="/css/register.css">
+</head>
+<body>
+
+    <section class="container-master">
+            <div class="container-nav">
+        <section class="nav">
+            <nav class="navbar">
+                <div><img src="img/Aurora_Elderly-removebg-preview 1.png" alt=""></div>
+                <div class="request">
+                    <p>Qual sua dúvida?</p>
+                </div>
+                <div class="btn-group">
+                    {{#if session.userId}}
+                       <button class="btn-nav" type="submit"> <a href="/">Voltar</a></button> 
+                       <button class="btn-nav" type="submit"><a href="/elderly/dashboardrender">Dashboard</a></button>
+<button class="btn-nav" type="submit"><a href="/logout">logout</a></button>
+                    {{else}}
+                 <button class="btn-nav" type="submit"><a href="/login">Login</a></button>
+                   <button class="btn-nav" type="submit"><a href="/registerall">Register</a></button> 
+                    {{/if}}
+                </div>
+            </nav>
+        </section>
+
+       
+    </div>
+    </section>
+
+    {{!-- {{#if messages.message}}
+    <div class="message">
+      {{messages.message}}
+    </div>
+  {{/if}} --}}
+
+    {{{body}}}
+
+    
+
+
+    
+</body>
+</html>

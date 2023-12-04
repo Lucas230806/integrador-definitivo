@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-login{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 50px;
+border-radius: 2rem;
+width: 100vw;
+height: 100vh;
+}
+
+.section-login{
+    background-color: #FFAD94;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5rem;
+    width: 40rem;
+}
+
+.linda{
+font-size: 3rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-bottom: 10rem;
+margin-top: 70px;
+}
+
+
+.receb label{ 
+    font-size:30px;
+    display: flex;
+    gap: 3rem;
+    margin-top: 15px;
+}
+
+.receb input{ 
+    font-size: 20px;
+    padding-left: 12px;
+    display: flex;
+    border-radius: 1rem;
+    height: 4rem;
+    width: 30rem;
+    
+}
+.senha{
+    border: none;
+    color: #000000;
+    background-color: #FFAD94;
+    padding-left: 20rem;
+    font-size: 15px;
+}
+
+.btn-login{
+    background-color: #A75D5D;
+    color: #FFFF;
+    display: flex;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 14rem;
+    font-size: 2rem;
+    margin-top: 7rem;
+    margin-left: 9rem;
+    padding-left: 4rem;
+    padding-top: 5px;
+}
+
+.btn-conta {
+    color: #0038FF;
+    font-size: 20px;
+        border: none;
+        background-color: #FFAD94;
+}
+
+.pl{
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+
+
+.direitos{
+    font-size: 2rem;
+    display: flex;
+    margin-top: 2rem;
+}

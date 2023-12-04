@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+    margin: auto;
+}
+.nav-section{
+    position: absolute;
+    background-color: #C07676;
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.nav-section-left{
+    position: absolute;
+    right:0;
+    background-color: #C07676;
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.article-section img{
+    color: #fff;
+}
+
+.article-section-sc{
+    display: flex;
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    border-top: 1px solid white ;
+    border-bottom: 1px solid white ;
+    text-decoration: none;
+    color: #fff;
+}
+
+.article-section p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 1px solid white ;
+    border-bottom: 1px solid white ;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.article-section p a{
+    text-decoration: none;
+}
+
+.sectio-menu{
+    display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 6rem;
+    gap: 3rem;
+}
+
+.lala-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    border-radius: 50px;
+    padding: 1rem;
+    background-color: #D3756B;
+}
+
+.lili-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #A15E57;
+    width: 60%;
+}
+
+.section-contem{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: white;
+}
+
+.section-descrit{
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+   
+}
+
+.section-descrit button{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-radius: 20rem;
+    font-size: x-large;
+    background-color: #EE867B;
+}
+
+
+
+.linl-desc{
+    text-decoration: none;
+    color: white;
+}
